@@ -45,3 +45,24 @@ var surveysData = [ //Codes are for form assembly forms in order classroom, firs
     { id: 8, text: 'Speaker & Field Trip Feedback', url: 'https://www.tfaforms.com/424566'},
     { id: 9, text: 'Week 7 Evaluation', url: "https://www.tfaforms.com/424586"}
 ]
+
+function urlEncoder(str) {
+  var new_string = "";
+  var length = str.length;
+  var i;
+  for(i=0; i < length; i++){
+    if(str.charAt(i) == " "){
+      new_string += "%20";
+    }
+    else if (str.charAt(i) == "&") {
+      new_string += "%26";
+    }
+    else if (str.charAt(i) == "'") {
+      new_string += "%27";
+    }
+    else{
+      new_string += str.charAt(i);
+    }
+  }
+  return new_string;
+}

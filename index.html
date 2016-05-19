@@ -100,14 +100,19 @@
       var code1 = surveysData[survey].codes[1]
       var code2 = surveysData[survey].codes[2]
 
+      var new_classroom = classroom_names[classroom].text
+      new_classroom = urlEncoder(new_classroom)
+
       var url = surveysData[survey].url
-      url += "?" + code0 + "=" + classroom.toString() + "&" + code1 + "=" + first_name + "&" + code2 + "=" + last_name
+      url += "?" + code0 + "=" + new_classroom + "&" + code1 + "=" + first_name + "&" + code2 + "=" + last_name
 
       location.href = url
-      console.log(classroom)
-      console.log(survey)
-      console.log(document.getElementById("first_name").value)
-      console.log(document.getElementById("last_name").value)
+
+
+      //console.log(new_classroom)
+      //console.log(survey)
+      //console.log(document.getElementById("first_name").value)
+      //console.log(document.getElementById("last_name").value)
       //var surveyURLs = [{0, "https://www/tfaforms.com/424566"}]
 
     }
