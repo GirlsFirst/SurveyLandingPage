@@ -25,6 +25,13 @@
 </head>
 
 <body>
+  <script>
+    var classroom;
+    var first_name;
+    var last_name;
+    var survey;
+
+  </script>
   <div class="nav">
     <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/GWC_logo_2016_.png/220px-GWC_logo_2016_.png" id="site-logo"></a>
   </div>
@@ -70,6 +77,7 @@
         $(".js-example-data-array-selected").select2({
           data: data
           })
+
         </script>
 
         <br>
@@ -104,7 +112,26 @@
             })
           </script>
   </div>
-  <button type="button" class="btn btn-primary">Take Me To The Survey!</button>
+  <button type="button" class="btn btn-primary" onclick="takeToSurvey()">Take Me To The Survey!</button>
+  <script>
+    $('#classroom').on('change', function() {
+        classroom = $(this).val();
+        $('#hidden').val(classroom);
+    });
+    $('#survey').on('change', function() {
+        survey = $(this).val();
+        $('#hidden').val(survey);
+    });
+    function takeToSurvey() {
+      console.log(classroom)
+      console.log(survey)
+      console.log(document.getElementById("first_name").value)
+      console.log(document.getElementById("last_name").value)
+      var surveyURLs = [{0, }]
+
+    }
+  </script>
+  <br>
   <p class="footertext">
     Made By Ellen McCullagh
   </p>
