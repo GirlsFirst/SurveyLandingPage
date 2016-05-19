@@ -33,11 +33,11 @@ var classroom_names = [
   { id: 78, text: 'Select a Classroom'}
 ]
 
-var surveysData = [
+var surveysData = [ //Codes are for form assembly forms in order classroom, first name, last name
     { id: 0, text: 'Pre Evaluation', url: 'https://www.tfaforms.com/424137', codes: ["tfa_122", "tfa_124", "tfa_126"]},
     { id: 1, text: 'Week 1 Check-in', url: "https://www.tfaforms.com/424576", codes: ["tfa_297", "tfa_695", "tfa_989"]},
-    { id: 2, text: "SFS Week 1 Survey", url: "https://www.tfaforms.com/424585"},
-    { id: 3, text: 'Week 2 Check-in', url: "https://www.tfaforms.com/424136", codes: ["tfa_297"]},
+    { id: 2, text: "SFS Week 1 Survey", url: "https://www.tfaforms.com/424136", codes: ["tfa_297", "tfa_695", "tfa_988"]},
+    { id: 3, text: 'Week 2 Check-in', url: "https://www.tfaforms.com/424585", codes: ["tfa_297", "tfa_695", "tfa_988"]},
     { id: 4, text: 'Week 3 Check-in', url: "https://www.tfaforms.com/424572", codes: ["tfa_297", "tfa_695", "tfa_1028"]},
     { id: 5, text: "SFS Week 3 Survey", url: "https://www.tfaforms.com/424584"},
     { id: 6, text: 'Week 4 Check-in', url: "https://www.tfaforms.com/424574", codes: ["tfa_297", "tfa_695", "tfa_697"]},

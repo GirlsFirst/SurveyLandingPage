@@ -98,3 +98,9 @@ font-size: 12px;
 .navbar-text {
     float: none;
 }
+
+.btn-primary {
+  background: #F4364C;
+  box-shadow: none;
+  border: none;
+}
