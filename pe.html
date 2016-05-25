@@ -49,11 +49,14 @@
       <button type="button" class="btn btn-primary" id="button_submit">Take Me To The Survey!</button>
   </div>
   <script>
+    $('#button_submit').prop('disabled', true)
+
     var speaker;
     $('#speakers').on('change', function() {
         speaker = $(this).val();
         +$('#hidden').val(speaker);
         console.log(speaker)
+        $('#button_submit').prop('disabled', false)
     });
     document.getElementById("button_submit").onclick = function () {
 
