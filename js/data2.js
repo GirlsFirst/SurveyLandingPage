@@ -1,8 +1,26 @@
 var regions_speakers = [
-  { id: 0, text: 'Accenture Atlanta', speakers: ["Georgia Power", "Hadiyah-Nicole Green", "Chae O'Keefe", "Clay Nelson", "Other"] },
-  { id: 1, text: 'AT&T Atlanta: Ada Lovelace', speakers: ["Atlanta Tech Village", "Erin Martin", "Betsy Hare", "Terri Chu"] },
-  { id: 2, text: 'AT&T Atlanta: Grace Hopper', speakers: ["Capital Factory", "Anita Johnson", "Patty Cifra"]},
-  { id: 3, text: 'GE Atlanta', speakers: ["Capital Factory", "Patty Cifra"]},
+  { id: 0, text: 'Accenture Atlanta', speakers: [
+                                                {id: 0, text: "Georgia Power"},
+                                                {id: 1, text: "Hadiyah-Nicole Green"},
+                                                {id: 2, text: "Chae O'Keefe"},
+                                                {id: 3, text: "Clay Nelson"},
+                                                {id: 4, text: "Other"}
+                                              ]},
+  { id: 1, text: 'AT&T Atlanta: Ada Lovelace', speakers: [
+                                                {id: 0, text: "Atlanta Tech Village"},
+                                                {id: 1, text: "Erin Martin"},
+                                                {id: 2, text: "Betsy Hare"},
+                                                {id: 3, text: "Terri Chu"}
+                                              ]},
+  { id: 2, text: 'AT&T Atlanta: Grace Hopper', speakers: [
+                                                {id: 0, text: "Capital Factory"},
+                                                {id: 1, text: "Anita Johnson"},
+                                                {id: 2, text: "Patty Cifra"}
+                                              ]},
+  { id: 3, text: 'GE Atlanta', speakers: [
+                                                {id: 0, text: "Capital Factory"},
+                                                {id: 1, text: "Patty Cifra"}
+                                              ]},
   { id: 4, text: 'AT&T Austin' },
   { id: 5, text: 'The Barlovento Foundation @ Austin Community College' },
   { id: 6, text: 'The Barlovento Foundation @ Texas State University at Round Rock' },
@@ -96,6 +114,7 @@ var lastName_splitted = tags[2].split("=")
 if(class_splitted[0] == "class_id") {
   classroom_id = class_splitted[1];
 }
+console.log(classroom_id)
 
 var first_name = firstName_splitted[1]
 var last_name = lastName_splitted[1]
