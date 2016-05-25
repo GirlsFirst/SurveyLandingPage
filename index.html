@@ -99,15 +99,21 @@
       console.log(survey)
       console.log(surveysData[survey].codes)
 
-      var code0 = surveysData[survey].codes[0]
-      var code1 = surveysData[survey].codes[1]
-      var code2 = surveysData[survey].codes[2]
+      var code0 = surveysData[survey].codes[0];
+      var code1 = surveysData[survey].codes[1];
+      var code2 = surveysData[survey].codes[2];
+      console.log(classroom)
 
-      var new_classroom = classroom_names[classroom].text
-      new_classroom = urlEncoder(new_classroom)
+      if(survey != 9){
+        classroom = classroom_names[classroom].text;
+        classroom = urlEncoder(classroom);
+      }
 
-      var url = surveysData[survey].url
-      url += "?" + code0 + "=" + new_classroom + "&" + code1 + "=" + first_name + "&" + code2 + "=" + last_name
+      var url = surveysData[survey].url;
+
+
+      url += "?" + code0 + "=" + classroom + "&" + code1 + "=" + first_name + "&" + code2 + "=" + last_name;
+      console.log(url)
 
       location.href = url
 
