@@ -1,8 +1,3 @@
-var classroom = -1;
-var first_name;
-var last_name;
-var survey = -1;
-
 var classroom_names = [{id: 0, text: 'Accenture Atlanta', speakers: [
 	{id: 0, text: 'Georgia Power'},
 	{id: 1, text: 'Hadiyah-Nicole Green'},
@@ -381,24 +376,3 @@ var surveysData = [ //Codes are for form assembly forms in order classroom, firs
     { id: 8, text: 'Post-Program Survey', url: "https://www.tfaforms.com/424586", codes: ["tfa_297", "tfa_695", "tfa_1028"]},
     { id: 9, text: 'Speaker & Field Trip Feedback', url: 'pe.html', codes: ["class_id", "first_name", "last_name"]}
 ]
-
-function urlEncoder(str) {
-  var new_string = "";
-  var length = str.length;
-  var i;
-  for(i=0; i < length; i++){
-    if(str.charAt(i) == " "){
-      new_string += "%20";
-    }
-    else if (str.charAt(i) == "&") {
-      new_string += "%26";
-    }
-    else if (str.charAt(i) == "'") {
-      new_string += "%27";
-    }
-    else{
-      new_string += str.charAt(i);
-    }
-  }
-  return new_string;
-}

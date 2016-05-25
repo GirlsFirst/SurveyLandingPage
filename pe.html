@@ -20,7 +20,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
   <link href="css/stylesheet.css" rel="stylesheet">
-  <script src="js/data2.js" type="text/javascript"></script>
+  <script src="js/data.js" type="text/javascript"></script>
+  <script src="js/pe.js" type="text/javascript"></script>
   <title>SIP 2016 Surveys</title>
 
 </head>
@@ -67,7 +68,7 @@
       var speakercodes = ["tfa_5", "tfa_8", "tfa_10", "tfa_12"];
       var final_speakers = ["none", "none", "none", "none"];
 
-      var classroom = urlEncoder(regions_speakers[classroom_id].text);
+      var classroom = urlEncoder(classroom_names[classroom_id].text);
 
       var url = "https://tfaforms.com/425994?";
       url += code0 + "=" + classroom;
@@ -76,7 +77,7 @@
 
       for(i=0; i < 4; i++){
         if(i < speaker.length){
-          final_speakers[i] = regions_speakers[classroom_id].speakers[speaker[i]].text;
+          final_speakers[i] = classroom_names[classroom_id].speakers[speaker[i]].text;
           final_speakers[i] = urlEncoder(final_speakers[i]);
         }
         url += "&" + speakercodes[i] + "=" + final_speakers[i]
