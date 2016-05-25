@@ -87,14 +87,29 @@
 
   <script>
     $('#button_submit').attr('disabled', 'disabled');
+
     $('#classroom').on('change', function() {
         classroom = $(this).val();
         $('#hidden').val(classroom);
+        if($('#hidden').val(survey) != '' && document.getElementById("first_name").value != '' && document.getElementById("last_name").value != ''){
+          $('#button_submit').removeAttr('disabled');
+        }
     });
+
     $('#survey').on('change', function() {
         survey = $(this).val();
         $('#hidden').val(survey);
         if($('#hidden').val(classroom) != '' && document.getElementById("first_name").value != '' && document.getElementById("last_name").value != ''){
+          $('#button_submit').removeAttr('disabled');
+        }
+    });
+    $('#first_name').on('change', function() {
+        if($('#hidden').val(classroom) != '' && $('#hidden').val(survey) != '' && document.getElementById("last_name").value != ''){
+          $('#button_submit').removeAttr('disabled');
+        }
+    });
+    $('#last_name').on('change', function() {
+        if($('#hidden').val(classroom) != '' && $('#hidden').val(survey) != '' && document.getElementById("first_name").value != ''){
           $('#button_submit').removeAttr('disabled');
         }
     });
