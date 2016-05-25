@@ -4,10 +4,10 @@ var last_name;
 var survey = -1;
 
 var classroom_names = [
-  { id: 0, text: 'Accenture Atlanta', speakers: ["Georgia Power", "Hadiyah-Nicole Green", "Chae O'Keefe", "Clay Nelson", "Other"] },
-  { id: 1, text: 'AT&T Atlanta: Ada Lovelace', speakers: ["Atlanta Tech Village", "Erin Martin", "Betsy Hare", "Terri Chu"] },
-  { id: 2, text: 'AT&T Atlanta: Grace Hopper', speakers: ["Capital Factory", "Anita Johnson", "Patty Cifra"]},
-  { id: 3, text: 'GE Atlanta', speakers: ["Capital Factory", "Patty Cifra"]},
+  { id: 0, text: 'Accenture Atlanta'},
+  { id: 1, text: 'AT&T Atlanta: Ada Lovelace'},
+  { id: 2, text: 'AT&T Atlanta: Grace Hopper'},
+  { id: 3, text: 'GE Atlanta'},
   { id: 4, text: 'AT&T Austin' },
   { id: 5, text: 'The Barlovento Foundation @ Austin Community College' },
   { id: 6, text: 'The Barlovento Foundation @ Texas State University at Round Rock' },
