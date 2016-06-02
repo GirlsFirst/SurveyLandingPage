@@ -75,15 +75,25 @@
       url += "&" + code1 + "=" + first_name;
       url += "&" + code2 + "=" + last_name;
 
+      var other = 0;
+
       for(i=0; i < 4; i++){
         if(i < speaker.length){
-          final_speakers[i] = classroom_names[classroom_id].speakers[speaker[i]].text;
-          final_speakers[i] = urlEncoder(final_speakers[i]);
+          var speakername = classroom_names[classroom_id].speakers[speaker[i]].text
+          if (speakername == "Other") {
+            other = 1;
+          }
+          else {
+            final_speakers[i] = classroom_names[classroom_id].speakers[speaker[i]].text;
+            final_speakers[i] = urlEncoder(final_speakers[i]);
+          }
         }
         url += "&" + speakercodes[i] + "=" + final_speakers[i]
+        url += "&" + "tfa_61" + "=" + other
 
       }
-
+      console.log(speaker.length)
+      url += "&" + "tfa_60" + "=" + speaker.length
       console.log(url)
       location.href = url
 
