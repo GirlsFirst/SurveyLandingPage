@@ -77,11 +77,14 @@
 
       var other = 0;
 
+      var num_speakers = speaker.length;
+
       for(i=0; i < 4; i++){
         if(i < speaker.length){
           var speakername = classroom_names[classroom_id].speakers[speaker[i]].text
           if (speakername == "Other") {
             other = 1;
+            num_speakers -= 1;
           }
           else {
             final_speakers[i] = classroom_names[classroom_id].speakers[speaker[i]].text;
@@ -93,7 +96,7 @@
 
       }
       console.log(speaker.length)
-      url += "&" + "tfa_60" + "=" + speaker.length
+      url += "&" + "tfa_60" + "=" + num_speakers
       console.log(url)
       location.href = url
 
