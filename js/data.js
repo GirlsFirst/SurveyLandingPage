@@ -440,6 +440,7 @@ var classroom_names = [{id: 0, text: 'Accenture Atlanta', speakers: [
 												{id: 3, text: 'Other'}
 											]},
   { id: 78, text: 'Select a Classroom'}
+	//We added a comment!
 ]
 
 var surveysData = [ //Codes are for form assembly forms in order classroom, first name, last name
