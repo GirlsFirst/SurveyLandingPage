@@ -14,7 +14,7 @@ var lastName_splitted = tags[2].split("=")
 if(class_splitted[0] == "class_id") {
   classroom_id = class_splitted[1];
 }
-console.log(classroom_id)
+//console.log(classroom_id)
 
 var first_name = firstName_splitted[1]
 var last_name = lastName_splitted[1]
