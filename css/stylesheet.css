@@ -13,6 +13,13 @@ body {
 
 }
 
+<<<<<<< HEAD
+=======
+select {
+    width: 100%;
+}
+
+>>>>>>> gh-pages
 h1 {
   color: #01426A;
   text-align: center;
@@ -94,3 +101,16 @@ color: #AAA;
 text-align: center;
 font-size: 12px;
 }
+<<<<<<< HEAD
+=======
+
+.navbar-text {
+    float: none;
+}
+
+.btn-primary {
+  background: #F4364C;
+  box-shadow: none;
+  border: none;
+}
+>>>>>>> gh-pages
