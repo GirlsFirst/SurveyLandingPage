@@ -13,10 +13,13 @@ body {
 
 }
 
+<<<<<<< HEAD
 select {
     width: 100%;
 }
 
+=======
+>>>>>>> 9bd7cc402d2a83a33484914a6b7e24d69b37d67e
 h1 {
   color: #01426A;
   text-align: center;
@@ -98,6 +101,7 @@ color: #AAA;
 text-align: center;
 font-size: 12px;
 }
+<<<<<<< HEAD
 
 .navbar-text {
     float: none;
@@ -108,3 +112,5 @@ font-size: 12px;
   box-shadow: none;
   border: none;
 }
+=======
+>>>>>>> 9bd7cc402d2a83a33484914a6b7e24d69b37d67e
