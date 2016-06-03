@@ -457,6 +457,7 @@ var surveysData = [ //Codes are for form assembly forms in order classroom, firs
 ]
 
 var teacherSurveysData = [ //Codes are for form assembly forms for teachers in order classroom, first name, last name
+		{ id: -1, text: "Select a Survey", url: "0", codes: ["0", "0", "0"]},
     { id: 0, text: "Pre-Program Survey", url: "https://www.tfaforms.com/424136", codes: ["tfa_297", "tfa_695", "tfa_988"]},
     { id: 1, text: 'Pre Evaluation', url: 'https://www.tfaforms.com/424137', codes: ["tfa_122", "tfa_124", "tfa_126"]},
     { id: 2, text: 'Week 1 Check-in', url: "https://www.tfaforms.com/424576", codes: ["tfa_297", "tfa_695", "tfa_989"]},
