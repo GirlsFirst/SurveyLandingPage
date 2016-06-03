@@ -17,6 +17,9 @@ function urlEncoder(str) {
     else if (str.charAt(i) == "'") {
       new_string += "%27";
     }
+    else if (str.charAt(i) == "@") {
+      new_string += "%40";
+    }
     else{
       new_string += str.charAt(i);
     }
