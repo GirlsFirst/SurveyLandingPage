@@ -31,7 +31,8 @@
 				{id: 1, text: 'Capital Factory'},
 				{id: 2, text: 'Anita Johnson'},
 				{id: 3, text: 'Patty Cifra'},
-				{id: 4, text: 'Other'}
+				{id: 4, text: 'Lesley Clayton'},
+				{id: 5, text: 'Other'}
 		]},
 		{id: 5, text: 'Barlovento Foundation @ Austin Community College', speakers: [
 				{id: 0, text: 'Other'}
@@ -40,21 +41,25 @@
 				{id: 0, text: 'Other'}
 		]},
 		{id: 7, text: 'IBM Austin', speakers: [
-				{id: 0, text: 'Capital Factory'},
-				{id: 1, text: 'Patty Cifra'},
-				{id: 2, text: 'Other'}
+				{id: 0, text: 'General Motors'},
+				{id: 1, text: 'Capital Factory'},
+				{id: 2, text: 'Patty Cifra'},
+				{id: 3, text: 'Kimberly Kelley'},
+				{id: 4, text: 'Other'}
 		]},
 		{id: 8, text: 'Indeed Austin', speakers: [
 				{id: 0, text: 'UT Austin'},
 				{id: 1, text: 'Capital Factory'},
-				{id: 2, text: 'Lyndsey Seale'},
-				{id: 3, text: 'Sina Bahram'},
-				{id: 4, text: 'Ashley Lowry'},
-				{id: 5, text: 'Other'}
+				{id: 2, text: 'Lesley Clayton'},
+				{id: 3, text: 'Lyndsey Seale'},
+				{id: 4, text: 'Sina Bahram'},
+				{id: 5, text: 'Ashley Lowry'},
+				{id: 6, text: 'Other'}
 		]},
 		{id: 9, text: 'Akamai Boston', speakers: [
 				{id: 0, text: 'Fathom'},
-				{id: 1, text: 'Other'}
+				{id: 1, text: 'Kimberly Arcand'},
+				{id: 2, text: 'Other'}
 		]},
 		{id: 10, text: 'Microsoft Boston', speakers: [
 				{id: 0, text: 'Lauren Metter + Sarah Ribeiro'},
@@ -62,8 +67,10 @@
 				{id: 2, text: 'Other'}
 		]},
 		{id: 11, text: 'TripAdvisor Boston', speakers: [
-				{id: 0, text: 'Mary Marken'},
-				{id: 1, text: 'Other'}
+				{id: 0, text: 'Amazon Robotics'},
+				{id: 1, text: 'Kimberly Arcand'},
+				{id: 2, text: 'Mary Marken'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 12, text: 'Twitter Boston', speakers: [
 				{id: 0, text: 'Mojgan Lefevbre'},
@@ -71,24 +78,27 @@
 				{id: 2, text: 'Other'}
 		]},
 		{id: 13, text: 'Verizon Boston', speakers: [
-				{id: 0, text: 'Mary Marken'},
-				{id: 1, text: 'Lauren Metter + Sarah Ribeiro'},
-				{id: 2, text: 'Other'}
+				{id: 0, text: 'Elaine Call'},
+				{id: 1, text: 'Mary Marken'},
+				{id: 2, text: 'Lauren Metter + Sarah Ribeiro'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 14, text: 'Accenture Chicago', speakers: [
-				{id: 0, text: 'Groupon'},
-				{id: 1, text: 'Sheri Rubin'},
-				{id: 2, text: 'Other'}
+				{id: 0, text: '1871'},
+				{id: 1, text: 'Groupon'},
+				{id: 2, text: 'Sheri Rubin'},
+				{id: 3, text: 'Shalini Patel'},
+				{id: 4, text: 'Other'}
 		]},
 		{id: 15, text: 'Girls Who Code @  the University of Illinois at Chicago: Ada Lovelace', speakers: [
-				{id: 0, text: 'Blue1647'},
+				{id: 0, text: '1871'},
 				{id: 1, text: 'Star Cunningham'},
 				{id: 2, text: 'Tasha Wilkins'},
 				{id: 3, text: 'Other'}
 		]},
 		{id: 16, text: 'Girls Who Code @ University of Illinois at Chicago: Grace Hopper', speakers: [
 				{id: 0, text: 'Microsoft'},
-				{id: 1, text: '1871'},
+				{id: 1, text: 'Blue1647'},
 				{id: 2, text: 'Star Cunningham'},
 				{id: 3, text: 'Tasha Wilkins'},
 				{id: 4, text: 'Other'}
@@ -106,7 +116,8 @@
 				{id: 1, text: 'Adler Planetarium'},
 				{id: 2, text: 'Sheri Rubin'},
 				{id: 3, text: 'Praveen Yadav'},
-				{id: 4, text: 'Other'}
+				{id: 4, text: 'Jana Cohen Barbe'},
+				{id: 5, text: 'Other'}
 		]},
 		{id: 19, text: 'Verizon Chicago', speakers: [
 				{id: 0, text: 'DePaul University Tour'},
@@ -135,18 +146,20 @@
 				{id: 3, text: 'Other'}
 		]},
 		{id: 23, text: 'Cheryl Saban Self-Worth Foundation for Women & Girls at USC Marshall School of Business: Ada Lovelace', speakers: [
-				{id: 0, text: 'Kayla Briet'},
-				{id: 1, text: 'Lea Deesing'},
-				{id: 2, text: 'Evette Vargas'},
-				{id: 3, text: 'Lauren Mermel'},
-				{id: 4, text: 'Other'}
+				{id: 0, text: 'General Assembly'},
+				{id: 1, text: 'Kayla Briet'},
+				{id: 2, text: 'Lea Deesing'},
+				{id: 3, text: 'Evette Vargas'},
+				{id: 4, text: 'Lauren Mermel'},
+				{id: 5, text: 'Other'}
 		]},
 		{id: 24, text: 'Cheryl Saban Self-Worth Foundation for Women & Girls at USC Marshall School of Business: Grace Hopper', speakers: [
-				{id: 0, text: 'Kayla Briet'},
-				{id: 1, text: 'Lea Deesing'},
-				{id: 2, text: 'Evette Vargas'},
-				{id: 3, text: 'Lauren Mermel'},
-				{id: 4, text: 'Other'}
+				{id: 0, text: 'General Assembly'},
+				{id: 1, text: 'Kayla Briet'},
+				{id: 2, text: 'Lea Deesing'},
+				{id: 3, text: 'Evette Vargas'},
+				{id: 4, text: 'Lauren Mermel'},
+				{id: 5, text: 'Other'}
 		]},
 		{id: 25, text: 'Knight Foundation at MDC Miami: Ada Lovelace', speakers: [
 				{id: 0, text: 'Other'}
@@ -156,7 +169,9 @@
 		]},
 		{id: 27, text: 'Verizon Newark: Ada Lovelace', speakers: [
 				{id: 0, text: 'NBCUniversal'},
-				{id: 1, text: 'Other'}
+				{id: 1, text: 'Marlyne Pierce'},
+				{id: 2, text: 'Thomas Abend'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 28, text: 'Verizon Newark: Grace Hopper', speakers: [
 				{id: 0, text: 'NBCUniversal'},
@@ -169,7 +184,8 @@
 				{id: 1, text: 'New York Times'},
 				{id: 2, text: 'Patricia Hernon'},
 				{id: 3, text: 'Lorelle Reid'},
-				{id: 4, text: 'Other'}
+				{id: 4, text: 'Am_lie Lamont'},
+				{id: 5, text: 'Other'}
 		]},
 		{id: 30, text: 'Adobe New York City', speakers: [
 				{id: 0, text: 'Squarespace'},
@@ -181,17 +197,21 @@
 		{id: 31, text: 'AIG New York City: Ada Lovelace', speakers: [
 				{id: 0, text: 'TechStars'},
 				{id: 1, text: 'LinkedIn'},
-				{id: 2, text: 'Other'}
+				{id: 2, text: 'Hilary Winn'},
+				{id: 3, text: 'Samantha Quinones'},
+				{id: 4, text: 'Other'}
 		]},
 		{id: 32, text: 'AIG New York City: Grace Hopper', speakers: [
 				{id: 0, text: 'TechStars'},
 				{id: 1, text: 'LinkedIn'},
-				{id: 2, text: 'Other'}
+				{id: 2, text: 'Shradha Agarwal'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 33, text: 'The AOL Charitable Foundation at the CUNY Advanced Science Research Center', speakers: [
 				{id: 0, text: 'DataKind'},
-				{id: 1, text: 'Adrienne Shulman'},
-				{id: 2, text: 'Other'}
+				{id: 1, text: 'Thomas Abend'},
+				{id: 2, text: 'Adrienne Shulman'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 34, text: 'AppNexus New York City', speakers: [
 				{id: 0, text: 'Samantha Quinones'},
@@ -202,7 +222,8 @@
 				{id: 0, text: 'Chanel'},
 				{id: 1, text: 'Adrienne Shulman'},
 				{id: 2, text: 'Sunny Bates'},
-				{id: 3, text: 'Other'}
+				{id: 3, text: 'Edith Mandel'},
+				{id: 4, text: 'Other'}
 		]},
 		{id: 36, text: 'BlackRock New York City', speakers: [
 				{id: 0, text: 'Squarespace'},
@@ -230,8 +251,10 @@
 		]},
 		{id: 40, text: 'IBM New York City', speakers: [
 				{id: 0, text: 'News Corp'},
-				{id: 1, text: 'Tiffany Xiao'},
-				{id: 2, text: 'Other'}
+				{id: 1, text: 'News Corp'},
+				{id: 2, text: 'Tiffany Xiao'},
+				{id: 3, text: 'Am_lie Lamont'},
+				{id: 4, text: 'Other'}
 		]},
 		{id: 41, text: 'JPMorgan Chase New York City', speakers: [
 				{id: 0, text: 'Tiffany Xiao'},
@@ -240,20 +263,23 @@
 		]},
 		{id: 42, text: 'Kate Spade & Company @ the Fashion Institute of Technology', speakers: [
 				{id: 0, text: 'New York Times'},
-				{id: 1, text: 'Rebecca Garcia'},
-				{id: 2, text: 'Lorelle Reid'},
-				{id: 3, text: 'Lindsay Hall'},
-				{id: 4, text: 'Other'}
+				{id: 1, text: 'the Met'},
+				{id: 2, text: 'Rebecca Garcia'},
+				{id: 3, text: 'Lorelle Reid'},
+				{id: 4, text: 'Lindsay Hall'},
+				{id: 5, text: 'Other'}
 		]},
 		{id: 43, text: 'Moody\'s New York City', speakers: [
 				{id: 0, text: 'Fueled Collective'},
 				{id: 1, text: 'Christina Morillo'},
-				{id: 2, text: 'Other'}
+				{id: 2, text: 'Kim Goulbourne'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 44, text: 'Microsoft New York City', speakers: [
 				{id: 0, text: 'New York Times'},
-				{id: 1, text: 'Stevie Aligbe'},
-				{id: 2, text: 'Other'}
+				{id: 1, text: 'Katelyn Stanis'},
+				{id: 2, text: 'Stevie Aligbe'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 45, text: 'Viacom New York City', speakers: [
 				{id: 0, text: 'News Corp'},
@@ -267,13 +293,16 @@
 				{id: 1, text: 'Other'}
 		]},
 		{id: 47, text: 'Amazon Seattle', speakers: [
-				{id: 0, text: 'Gabrielle Gutierrez'},
-				{id: 1, text: 'Other'}
+				{id: 0, text: 'Disney Interactive'},
+				{id: 1, text: 'Diana Navarro'},
+				{id: 2, text: 'Gabrielle Gutierrez'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 48, text: 'AT&T Seattle', speakers: [
 				{id: 0, text: 'Seattle Times'},
 				{id: 1, text: 'Gabrielle Gutierrez'},
-				{id: 2, text: 'Other'}
+				{id: 2, text: 'Laura Williams-Argilla'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 49, text: 'Expedia Seattle', speakers: [
 				{id: 0, text: 'Anna Marie Golden'},
@@ -283,12 +312,15 @@
 		{id: 50, text: 'Groupon Seattle', speakers: [
 				{id: 0, text: 'Seattle Times'},
 				{id: 1, text: 'Pivotal Labs'},
-				{id: 2, text: 'Other'}
+				{id: 2, text: 'Laura Williams-Argilla'},
+				{id: 3, text: 'Jane Odero Greene'},
+				{id: 4, text: 'Other'}
 		]},
 		{id: 51, text: 'Microsoft Seattle', speakers: [
 				{id: 0, text: 'Seattle Times'},
-				{id: 1, text: 'Anna Marie Golden'},
-				{id: 2, text: 'Other'}
+				{id: 1, text: 'Jane Odero Greene'},
+				{id: 2, text: 'Anna Marie Golden'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 52, text: 'Adobe San Jose: Ada Lovelace', speakers: [
 				{id: 0, text: 'Yahoo!'},
@@ -304,8 +336,10 @@
 		]},
 		{id: 54, text: 'Adobe San Francisco', speakers: [
 				{id: 0, text: 'Pinterest'},
-				{id: 1, text: 'Alyssa Simpson'},
-				{id: 2, text: 'Other'}
+				{id: 1, text: 'Anna Kilgore'},
+				{id: 2, text: 'Alyssa Simpson'},
+				{id: 3, text: 'Albert Treat'},
+				{id: 4, text: 'Other'}
 		]},
 		{id: 55, text: 'Amazon Bay Area', speakers: [
 				{id: 0, text: 'Lifelock/Stanford'},
@@ -315,13 +349,15 @@
 				{id: 4, text: 'Other'}
 		]},
 		{id: 56, text: 'Autodesk San Francisco', speakers: [
-				{id: 0, text: 'Aminatou Sow'},
-				{id: 1, text: 'Other'}
+				{id: 0, text: 'Ford'},
+				{id: 1, text: 'Aminatou Sow'},
+				{id: 2, text: 'Other'}
 		]},
 		{id: 57, text: 'Electronic Arts Bay Area', speakers: [
-				{id: 0, text: 'Kimberly Unger'},
-				{id: 1, text: 'Kaye Mason'},
-				{id: 2, text: 'Other'}
+				{id: 0, text: 'Ford'},
+				{id: 1, text: 'Kimberly Unger'},
+				{id: 2, text: 'Kaye Mason'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 58, text: 'Facebook Bay Area', speakers: [
 				{id: 0, text: 'EA'},
@@ -333,7 +369,8 @@
 				{id: 6, text: 'Other'}
 		]},
 		{id: 59, text: 'GE Bay Area', speakers: [
-				{id: 0, text: 'Other'}
+				{id: 0, text: 'Blippar'},
+				{id: 1, text: 'Other'}
 		]},
 		{id: 60, text: 'IBM San Jose', speakers: [
 				{id: 0, text: 'Lifelock/Stanford'},
@@ -357,9 +394,10 @@
 		{id: 63, text: 'Microsoft Bay Area', speakers: [
 				{id: 0, text: 'Lifelock/Stanford'},
 				{id: 1, text: 'EA'},
-				{id: 2, text: 'Robin Yang'},
-				{id: 3, text: 'Andrea Ayres'},
-				{id: 4, text: 'Other'}
+				{id: 2, text: 'Sheryl Kline'},
+				{id: 3, text: 'Robin Yang'},
+				{id: 4, text: 'Andrea Ayres'},
+				{id: 5, text: 'Other'}
 		]},
 		{id: 64, text: 'Pivotal Bay Area', speakers: [
 				{id: 0, text: 'Other'}
@@ -371,14 +409,17 @@
 				{id: 3, text: 'Other'}
 		]},
 		{id: 66, text: 'Prudential Newark', speakers: [
-				{id: 0, text: 'Marlyne Pierce'},
-				{id: 1, text: 'Other'}
+				{id: 0, text: 'Derica Curtis'},
+				{id: 1, text: 'Cori Haines'},
+				{id: 2, text: 'Marlyne Pierce'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 67, text: 'Sephora San Francisco', speakers: [
 				{id: 0, text: 'Airbnb'},
 				{id: 1, text: 'Alyssa Simpson'},
 				{id: 2, text: 'Ariana Mott'},
-				{id: 3, text: 'Other'}
+				{id: 3, text: 'Allbert Treat'},
+				{id: 4, text: 'Other'}
 		]},
 		{id: 68, text: 'Square San Francisco', speakers: [
 				{id: 0, text: 'Lifelock/Stanford'},
@@ -420,9 +461,10 @@
 		{id: 74, text: 'Capital One Washington DC', speakers: [
 				{id: 0, text: 'Reshma/Megan Smith Town Hall'},
 				{id: 1, text: '1776'},
-				{id: 2, text: 'Lisa Hines'},
-				{id: 3, text: 'Rhianon Anderson'},
-				{id: 4, text: 'Other'}
+				{id: 2, text: 'Linda Mills'},
+				{id: 3, text: 'Lisa Hines'},
+				{id: 4, text: 'Rhianon Anderson'},
+				{id: 5, text: 'Other'}
 		]},
 		{id: 75, text: 'Knight Foundation at MDC Miami: Grace Hopper', speakers: [
 				{id: 0, text: 'Other'}
