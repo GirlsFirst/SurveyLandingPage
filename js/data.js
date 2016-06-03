@@ -467,5 +467,5 @@ var teacherSurveysData = [ //Codes are for form assembly forms for teachers in o
     { id: 6, text: 'Week 4 Check-in', url: "https://www.tfaforms.com/424574", codes: ["tfa_297", "tfa_695", "tfa_697"]},
     { id: 7, text: 'Post Evaluation', url: "https://www.tfaforms.com/424578", codes: ["tfa_256", "tfa_258", "tfa_260"]},
     { id: 8, text: 'Post-Program Survey', url: "https://www.tfaforms.com/424586", codes: ["tfa_297", "tfa_695", "tfa_1028"]},
-    { id: 9, text: 'Speaker & Field Trip Feedback', url: 'teacherpe.html', codes: ["class_id", "first_name", "last_name"]}
+    { id: 9, text: 'Speaker & Field Trip Feedback', url: 'teacherpe.html', codes: ["class_id", "first_name", "last_name", "email"]}
 ]
