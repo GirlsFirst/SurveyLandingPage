@@ -485,22 +485,24 @@ var classroom_names = [		{id: 0, text: 'Accenture Atlanta', speakers: [
 	//We added a comment!
 ]
 
-var surveysData = [ //Codes are for form assembly forms in order classroom, first name, last name
+var surveysData = [ //Codes are for form assembly forms in order classroom, first name, last name, email
     { id: 0, text: "Pre-Program Survey", url: "https://www.tfaforms.com/424585", codes: ["tfa_297", "tfa_695", "tfa_988"]},
-    { id: 1, text: 'Pre Evaluation', url: 'https://www.tfaforms.com/424137', codes: ["tfa_122", "tfa_124", "tfa_126"]},
-    { id: 2, text: 'Week 1 Check-in', url: "https://www.tfaforms.com/424576", codes: ["tfa_297", "tfa_695", "tfa_989"]},
-    { id: 3, text: 'Week 2 Check-in', url: "https://www.tfaforms.com/424585", codes: ["tfa_297", "tfa_695", "tfa_988"]},
-    { id: 4, text: 'Week 3 Check-in', url: "https://www.tfaforms.com/424572", codes: ["tfa_297", "tfa_695", "tfa_1028"]},
+    { id: 1, text: 'Pre Evaluation', url: 'https://www.tfaforms.com/424137', codes: ["tfa_122", "tfa_124", "tfa_126", "tfa_128"]},
+    { id: 2, text: 'Week 1 Check-in', url: "https://www.tfaforms.com/424576", codes: ["tfa_297", "tfa_695", "tfa_989", "tfa_991"]},
+    { id: 3, text: 'Week 2 Check-in', url: "https://www.tfaforms.com/427845", codes: ["tfa_297", "tfa_695", "tfa_989", "tfa_991"]},
+    { id: 4, text: 'Week 3 Check-in', url: "https://www.tfaforms.com/424572", codes: ["tfa_297", "tfa_695", "tfa_1028", "tfa_1030"]},
     { id: 5, text: "Mid-Program Survey", url: "https://www.tfaforms.com/424584", codes: ["tfa_297", "tfa_695", "tfa_988"]},
-    { id: 6, text: 'Week 4 Check-in', url: "https://www.tfaforms.com/424574", codes: ["tfa_297", "tfa_695", "tfa_697"]},
-    { id: 7, text: 'Post Evaluation', url: "https://www.tfaforms.com/424578", codes: ["tfa_256", "tfa_258", "tfa_260"]},
+    { id: 6, text: 'Week 4 Check-in', url: "https://www.tfaforms.com/424574", codes: ["tfa_297", "tfa_695", "tfa_697",  "tfa_699"]},
+    { id: 7, text: 'Post Evaluation', url: "https://www.tfaforms.com/424578", codes: ["tfa_256", "tfa_258", "tfa_260", "tfa_262"]},
     { id: 8, text: 'Post-Program Survey', url: "https://www.tfaforms.com/424586", codes: ["tfa_297", "tfa_695", "tfa_1028"]},
     { id: 9, text: 'Speaker & Field Trip Feedback', url: 'pe.html', codes: ["class_id", "first_name", "last_name"]},
 		{ id: -1, text: "Select a Survey", url: "0", codes: ["0", "0", "0"]}
 ]
 
+
+"https://docs.google.com/a/girlswhocode.com/forms/d/1kzOoOtdrkA8HwhQtdWEQmCHr3XgxrqMwzmM3NqORDz4/viewform?entry.333065206=Ellen&entry.383924707=Pixar&entry.14863978&entry.701767958&entry.1053599162&entry.1729792681&entry.1667315516"
 var teacherSurveysData = [ //Codes are for form assembly forms for teachers in order classroom, first name, last name
 		{ id: 0, text: 'Speaker & Field Trip Feedback', url: 'teacherpe.html', codes: ["class_id", "first_name", "last_name", "email"]},
-    { id: 1, text: "Program Feedback", url: "https://www.tfaforms.com/424136", codes: ["tfa_297", "tfa_695", "tfa_988"]},
+    { id: 1, text: "Week 1 Feedback", url: "https://docs.google.com/a/girlswhocode.com/forms/d/1kzOoOtdrkA8HwhQtdWEQmCHr3XgxrqMwzmM3NqORDz4/viewform", codes: ["entry.383924707", "entry.333065206"]},
 		{ id: -1, text: "Select a Survey", url: "0", codes: ["0", "0", "0"]}
 ]

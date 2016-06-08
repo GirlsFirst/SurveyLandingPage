@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="http://girlswhocode.com/wp-content/themes/gwc/favicon.ico">
+  <link rel="icon" type="image/png" href="http://girlswhocode.com/apple-icon.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <!-- Latest compiled and minified CSS -->
@@ -142,15 +142,19 @@
       var code2 = teacherSurveysData[survey].codes[2];
       console.log(classroom)
 
-      if(survey != 9){
+      if(survey != 0){
         classroom = classroom_names[classroom].text;
         classroom = urlEncoder(classroom);
       }
 
       var url = teacherSurveysData[survey].url;
 
-
-      url += "?" + code0 + "=" + classroom + "&" + code1 + "=" + first_name + "&" + code2 + "=" + last_name;
+      if(survey != 0){
+        url += "?" + code0 + "=" + classroom + "&" + code1 + "=" + first_name + "%20" + last_name;
+      }
+      else {
+        url += "?" + code0 + "=" + classroom + "&" + code1 + "=" + first_name + "&" + code2 + "=" + last_name;
+      }
       console.log(url)
 
       location.href = url
