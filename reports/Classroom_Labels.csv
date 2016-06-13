@@ -3,8 +3,8 @@
 2016_ATT_ATL_2,AT&T Atlanta: Grace Hopper
 2016_GE_ATL,GE Atlanta
 2016_ATT_AUS,AT&T Austin
-2016_Barlevento_ACC_AUS_1,Barlovento Foundation @ Austin Community College
-2016_Barlevento_RR_AUS_2,The Barlovento Foundation @ Texas State University at Round Rock
+2016_BarloventoACC_AUS_1,Barlovento Foundation @ Austin Community College
+2016_BarloventoRR_AUS_2,The Barlovento Foundation @ Texas State University at Round Rock
 2016_IBM_AUS,IBM Austin
 2016_Indeed_AUS,Indeed Austin
 2016_Akamai_BOS,Akamai Boston
@@ -23,8 +23,9 @@
 2016_IBM_LOS,IBM Los Angeles
 2016_SabanUSC_LOS_1,Cheryl Saban Self-Worth Foundation for Women & Girls at USC Marshall School of Business: Ada Lovelace
 2016_SabanUSC_LOS_2,Cheryl Saban Self-Worth Foundation for Women & Girls at USC Marshall School of Business: Grace Hopper
-2016_Knight_MIA_1,Knight Foundation at MDC Miami: Ada Lovelace
-2016_Knight_MIA_2,Knight Foundation Miami @ FIU
+2016_Knight_MDC_MIA_1,Knight Foundation at MDC Miami: Ada Lovelace
+2016_Knight_FIU_MIA_2,Knight Foundation Miami @ FIU
+2016_Knight_MDC_MIA_3, Knight Foundation Miami: Grace Hopper
 2016_Verizon_NWK_1,Verizon Newark: Ada Lovelace
 2016_Verizon_NWK_2,Verizon Newark: Grace Hopper
 2016_Accenture_NYC,Accenture New York City
@@ -62,7 +63,7 @@
 2016_Intuit_BAY,Intuit Bay Area
 2016_Moodys_BAY,Moody\'s San Francisco
 2016_MSFT_BAY,Microsoft Bay Area
-2016_PivotalLab_Bay,Pivotal Bay Area
+2016_Pivotal_BAY,Pivotal Bay Area
 2016_Pixar_BAY,Pixar Bay Area
 2016_Prudential_NWK,Prudential Newark
 2016_Sephora_BAY,Sephora San Francisco
@@ -73,6 +74,5 @@
 2016_ATT_WAS,AT&T Washington DC
 2016_BSA_WAS,BSA Washington DC
 2016_CapitalOne_WAS,Capital One Washington DC
-2016_Knight_MIA_3,Knight Foundation at MDC Miami: Grace Hopper
 2016_Lockheed_WAS_1,Lockheed Martin Washington DC: Ada Lovelace
 2016_Lockheed_WAS_2,Lockheed Martin Washington DC: Grace Hopper

@@ -1,4 +1,4 @@
-var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
+var classroom_names = [			{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 0, text: 'Atlanta Tech Village'},
 				{id: 1, text: 'Clay Nelson'},
 				{id: 2, text: 'Chae O\'Keefe'},
@@ -36,10 +36,19 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 5, text: 'Other'}
 		]},
 		{id: 5, text: 'Barlovento Foundation @ Austin Community College', speakers: [
-				{id: 0, text: 'Other'}
+				{id: 0, text: 'Capital Factory'},
+				{id: 1, text: 'Dell'},
+				{id: 2, text: 'Ashley Lowry'},
+				{id: 3, text: 'Anita Johnson'},
+				{id: 4, text: 'Other'}
 		]},
 		{id: 6, text: 'The Barlovento Foundation @ Texas State University at Round Rock', speakers: [
-				{id: 0, text: 'Other'}
+				{id: 0, text: 'Capital Factory'},
+				{id: 1, text: 'Dell'},
+				{id: 2, text: 'Sina Bahram'},
+				{id: 3, text: 'Adriana de la Cuadra'},
+				{id: 4, text: 'Anita Salinas'},
+				{id: 5, text: 'Other'}
 		]},
 		{id: 7, text: 'IBM Austin', speakers: [
 				{id: 0, text: 'General Motors'},
@@ -172,24 +181,35 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 6, text: 'Other'}
 		]},
 		{id: 25, text: 'Knight Foundation at MDC Miami: Ada Lovelace', speakers: [
-				{id: 0, text: 'Other'}
+				{id: 0, text: 'Studio Center'},
+				{id: 1, text: 'Niki Novo'},
+				{id: 2, text: 'Pia Celestino'},
+				{id: 3, text: 'Other'}
 		]},
 		{id: 26, text: 'Knight Foundation Miami @ FIU', speakers: [
-				{id: 0, text: 'Other'}
+				{id: 0, text: 'John Escobar'},
+				{id: 1, text: 'Allison Cammack'},
+				{id: 2, text: 'Pia Celestino'},
+				{id: 3, text: 'Other'}
 		]},
-		{id: 27, text: 'Verizon Newark: Ada Lovelace', speakers: [
+		{id: 27, text: ' Knight Foundation Miami: Grace Hopper', speakers: [
+				{id: 0, text: 'Studio Center'},
+				{id: 1, text: 'Allison Cammack'},
+				{id: 2, text: 'Other'}
+		]},
+		{id: 28, text: 'Verizon Newark: Ada Lovelace', speakers: [
 				{id: 0, text: 'NBCUniversal'},
 				{id: 1, text: 'Marlyne Pierce'},
 				{id: 2, text: 'Thomas Abend'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 28, text: 'Verizon Newark: Grace Hopper', speakers: [
+		{id: 29, text: 'Verizon Newark: Grace Hopper', speakers: [
 				{id: 0, text: 'NBCUniversal'},
 				{id: 1, text: 'Jessica Sheft-Ason'},
 				{id: 2, text: 'Ajaita Saini'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 29, text: 'Accenture New York City', speakers: [
+		{id: 30, text: 'Accenture New York City', speakers: [
 				{id: 0, text: 'New York Times'},
 				{id: 1, text: 'Blippar'},
 				{id: 2, text: 'Patricia Hernon'},
@@ -197,14 +217,14 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 4, text: 'Am_lie Lamont'},
 				{id: 5, text: 'Other'}
 		]},
-		{id: 30, text: 'Adobe New York City', speakers: [
+		{id: 31, text: 'Adobe New York City', speakers: [
 				{id: 0, text: 'New York Times'},
 				{id: 1, text: 'Squarespace'},
 				{id: 2, text: 'Lorelle Reid'},
 				{id: 3, text: 'Kirti Agarwal'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 31, text: 'AIG New York City: Ada Lovelace', speakers: [
+		{id: 32, text: 'AIG New York City: Ada Lovelace', speakers: [
 				{id: 0, text: 'LinkedIn'},
 				{id: 1, text: 'TechStars'},
 				{id: 2, text: 'Samantha Quinones'},
@@ -212,67 +232,67 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 4, text: 'Sabrina Varanelli'},
 				{id: 5, text: 'Other'}
 		]},
-		{id: 32, text: 'AIG New York City: Grace Hopper', speakers: [
+		{id: 33, text: 'AIG New York City: Grace Hopper', speakers: [
 				{id: 0, text: 'LinkedIn'},
 				{id: 1, text: 'TechStars'},
 				{id: 2, text: 'Shradha Agarwal'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 33, text: 'The AOL Charitable Foundation at the CUNY Advanced Science Research Center', speakers: [
+		{id: 34, text: 'The AOL Charitable Foundation at the CUNY Advanced Science Research Center', speakers: [
 				{id: 0, text: 'DataKind'},
 				{id: 1, text: 'Adrienne Shulman'},
 				{id: 2, text: 'Thomas Abend'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 34, text: 'AppNexus New York City', speakers: [
+		{id: 35, text: 'AppNexus New York City', speakers: [
 				{id: 0, text: 'Ajaita Saini'},
 				{id: 1, text: 'Samantha Quinones'},
 				{id: 2, text: 'Other'}
 		]},
-		{id: 35, text: 'AT&T New York City', speakers: [
+		{id: 36, text: 'AT&T New York City', speakers: [
 				{id: 0, text: 'Chanel'},
 				{id: 1, text: 'Sunny Bates'},
 				{id: 2, text: 'Adrienne Shulman'},
 				{id: 3, text: 'Edith Mandel'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 36, text: 'BlackRock New York City', speakers: [
+		{id: 37, text: 'BlackRock New York City', speakers: [
 				{id: 0, text: 'Squarespace'},
 				{id: 1, text: 'Isabella Frassetti'},
 				{id: 2, text: 'Christina Morillo'},
 				{id: 3, text: 'Hilary Winn'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 37, text: 'Goldman Sachs New York City: Ada Lovelace', speakers: [
+		{id: 38, text: 'Goldman Sachs New York City: Ada Lovelace', speakers: [
 				{id: 0, text: 'Refinery 29'},
 				{id: 1, text: 'Caroline Sinders'},
 				{id: 2, text: 'Amy Quispe'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 38, text: 'Goldman Sachs New York City: Grace Hopper', speakers: [
+		{id: 39, text: 'Goldman Sachs New York City: Grace Hopper', speakers: [
 				{id: 0, text: 'Refinery 29'},
 				{id: 1, text: 'Caroline Sinders'},
 				{id: 2, text: 'Amy Quispe'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 39, text: 'IAC New York City', speakers: [
+		{id: 40, text: 'IAC New York City', speakers: [
 				{id: 0, text: 'Squarespace'},
 				{id: 1, text: 'Amy Quispe'},
 				{id: 2, text: 'Francesca Colombo'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 40, text: 'IBM New York City', speakers: [
+		{id: 41, text: 'IBM New York City', speakers: [
 				{id: 0, text: 'News Corp'},
 				{id: 1, text: 'Tiffany Xiao'},
 				{id: 2, text: 'Am_lie Lamont'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 41, text: 'JPMorgan Chase New York City', speakers: [
+		{id: 42, text: 'JPMorgan Chase New York City', speakers: [
 				{id: 0, text: 'Stevie Aligbe'},
 				{id: 1, text: 'Tiffany Xiao'},
 				{id: 2, text: 'Other'}
 		]},
-		{id: 42, text: 'Kate Spade & Company @ the Fashion Institute of Technology', speakers: [
+		{id: 43, text: 'Kate Spade & Company @ the Fashion Institute of Technology', speakers: [
 				{id: 0, text: 'New York Times'},
 				{id: 1, text: 'the Met'},
 				{id: 2, text: 'Lindsay Hall'},
@@ -280,73 +300,73 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 4, text: 'Rebecca Garcia'},
 				{id: 5, text: 'Other'}
 		]},
-		{id: 43, text: 'Moody\'s New York City', speakers: [
+		{id: 44, text: 'Moody\'s New York City', speakers: [
 				{id: 0, text: 'Fueled Collective'},
 				{id: 1, text: 'Christina Morillo'},
 				{id: 2, text: 'Kim Goulbourne'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 44, text: 'Microsoft New York City', speakers: [
+		{id: 45, text: 'Microsoft New York City', speakers: [
 				{id: 0, text: 'New York Times'},
 				{id: 1, text: 'Katelyn Stanis'},
 				{id: 2, text: 'Stevie Aligbe'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 45, text: 'Viacom New York City', speakers: [
+		{id: 46, text: 'Viacom New York City', speakers: [
 				{id: 0, text: 'News Corp'},
 				{id: 1, text: 'Nathalie Leon'},
 				{id: 2, text: 'Kelly Moran'},
 				{id: 3, text: 'Rebecca Garcia'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 46, text: 'Adobe Seattle', speakers: [
+		{id: 47, text: 'Adobe Seattle', speakers: [
 				{id: 0, text: 'Gabrielle Gutierrez'},
 				{id: 1, text: 'Other'}
 		]},
-		{id: 47, text: 'Amazon Seattle', speakers: [
+		{id: 48, text: 'Amazon Seattle', speakers: [
 				{id: 0, text: 'Disney Interactive'},
 				{id: 1, text: 'Gabrielle Gutierrez'},
 				{id: 2, text: 'Mei Hsieh'},
 				{id: 3, text: 'Tiffany Niver'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 48, text: 'AT&T Seattle', speakers: [
+		{id: 49, text: 'AT&T Seattle', speakers: [
 				{id: 0, text: 'Seattle Times'},
 				{id: 1, text: 'Gabrielle Gutierrez'},
 				{id: 2, text: 'Laura Williams-Argilla'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 49, text: 'Expedia Seattle', speakers: [
+		{id: 50, text: 'Expedia Seattle', speakers: [
 				{id: 0, text: 'Mel Carson'},
 				{id: 1, text: 'Anna Marie Golden'},
 				{id: 2, text: 'Other'}
 		]},
-		{id: 50, text: 'Groupon Seattle', speakers: [
+		{id: 51, text: 'Groupon Seattle', speakers: [
 				{id: 0, text: 'Pivotal Labs'},
 				{id: 1, text: 'Seattle Times'},
 				{id: 2, text: 'Laura Williams-Argilla'},
 				{id: 3, text: 'Jane Odero Greene'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 51, text: 'Microsoft Seattle', speakers: [
+		{id: 52, text: 'Microsoft Seattle', speakers: [
 				{id: 0, text: 'Seattle Times'},
 				{id: 1, text: 'Anna Marie Golden'},
 				{id: 2, text: 'Jane Odero Greene'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 52, text: 'Adobe San Jose: Ada Lovelace', speakers: [
+		{id: 53, text: 'Adobe San Jose: Ada Lovelace', speakers: [
 				{id: 0, text: 'Yahoo!'},
 				{id: 1, text: 'Diana Navarro'},
 				{id: 2, text: 'Kirsten Wolberg'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 53, text: 'Adobe San Jose: Grace Hopper', speakers: [
+		{id: 54, text: 'Adobe San Jose: Grace Hopper', speakers: [
 				{id: 0, text: 'Yahoo!'},
 				{id: 1, text: 'Diana Navarro'},
 				{id: 2, text: 'Kirsten Wolberg'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 54, text: 'Adobe San Francisco', speakers: [
+		{id: 55, text: 'Adobe San Francisco', speakers: [
 				{id: 0, text: 'Pinterest'},
 				{id: 1, text: 'Alyssa Simpson'},
 				{id: 2, text: 'Anna Kilgore'},
@@ -354,7 +374,7 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 4, text: 'Albert Treat'},
 				{id: 5, text: 'Other'}
 		]},
-		{id: 55, text: 'Amazon Bay Area', speakers: [
+		{id: 56, text: 'Amazon Bay Area', speakers: [
 				{id: 0, text: 'Lifelock/Stanford'},
 				{id: 1, text: 'Diana Navarro'},
 				{id: 2, text: 'Paula Griffin'},
@@ -363,7 +383,7 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 5, text: 'Elynn Lee'},
 				{id: 6, text: 'Other'}
 		]},
-		{id: 56, text: 'Autodesk San Francisco', speakers: [
+		{id: 57, text: 'Autodesk San Francisco', speakers: [
 				{id: 0, text: 'Pivotal Cloud Foundry'},
 				{id: 1, text: 'Ford'},
 				{id: 2, text: 'Aminatou Sow'},
@@ -372,14 +392,14 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 5, text: 'Natasha Vianna'},
 				{id: 6, text: 'Other'}
 		]},
-		{id: 57, text: 'Electronic Arts Bay Area', speakers: [
+		{id: 58, text: 'Electronic Arts Bay Area', speakers: [
 				{id: 0, text: 'Ford'},
 				{id: 1, text: 'Kimberly Unger'},
 				{id: 2, text: 'Kaye Mason'},
 				{id: 3, text: 'Kaye Mason'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 58, text: 'Facebook Bay Area', speakers: [
+		{id: 59, text: 'Facebook Bay Area', speakers: [
 				{id: 0, text: 'EA'},
 				{id: 1, text: 'Robin Yang'},
 				{id: 2, text: 'Andrea Ayres'},
@@ -388,24 +408,24 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 5, text: 'Tejas Manohar'},
 				{id: 6, text: 'Other'}
 		]},
-		{id: 59, text: 'GE Bay Area', speakers: [
+		{id: 60, text: 'GE Bay Area', speakers: [
 				{id: 0, text: 'Blippar'},
 				{id: 1, text: 'Other'}
 		]},
-		{id: 60, text: 'IBM San Jose', speakers: [
+		{id: 61, text: 'IBM San Jose', speakers: [
 				{id: 0, text: 'Lifelock/Stanford'},
 				{id: 1, text: 'Diana Navarro'},
 				{id: 2, text: 'Cecile Cruz'},
 				{id: 3, text: 'Cameron McClees'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 61, text: 'Intuit Bay Area', speakers: [
+		{id: 62, text: 'Intuit Bay Area', speakers: [
 				{id: 0, text: 'EA'},
 				{id: 1, text: 'Kaye Mason'},
 				{id: 2, text: 'Diana Navarro'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 62, text: 'Moody\'s San Francisco', speakers: [
+		{id: 63, text: 'Moody\'s San Francisco', speakers: [
 				{id: 0, text: 'Pinterest'},
 				{id: 1, text: 'Kathleen Mullaney'},
 				{id: 2, text: 'Brynne Herbert'},
@@ -413,7 +433,7 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 4, text: 'Catherine George'},
 				{id: 5, text: 'Other'}
 		]},
-		{id: 63, text: 'Microsoft Bay Area', speakers: [
+		{id: 64, text: 'Microsoft Bay Area', speakers: [
 				{id: 0, text: 'EA'},
 				{id: 1, text: 'Lifelock/Stanford'},
 				{id: 2, text: 'Robin Yang'},
@@ -421,17 +441,24 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 4, text: 'Sheryl Kline'},
 				{id: 5, text: 'Other'}
 		]},
-		{id: 64, text: 'Pivotal Bay Area', speakers: [
-				{id: 0, text: 'Other'}
+		{id: 65, text: 'Pivotal Bay Area', speakers: [
+				{id: 0, text: 'EA'},
+				{id: 1, text: 'Lifelock/Stanford'},
+				{id: 2, text: 'Autodesk'},
+				{id: 3, text: 'Pivotal Cloud Foundry'},
+				{id: 4, text: 'Kaye Mason'},
+				{id: 5, text: 'Kimberly Unger'},
+				{id: 6, text: 'Tejas Manohar'},
+				{id: 7, text: 'Other'}
 		]},
-		{id: 65, text: 'Pixar Bay Area', speakers: [
+		{id: 66, text: 'Pixar Bay Area', speakers: [
 				{id: 0, text: 'Dolby'},
 				{id: 1, text: 'Sheryl Kline'},
 				{id: 2, text: 'Lucia Greco'},
 				{id: 3, text: 'Jeff Stern'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 66, text: 'Prudential Newark', speakers: [
+		{id: 67, text: 'Prudential Newark', speakers: [
 				{id: 0, text: 'Audible'},
 				{id: 1, text: 'Marlyne Pierce'},
 				{id: 2, text: 'Derica Curtis'},
@@ -439,7 +466,7 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 4, text: 'Solomon Steplight'},
 				{id: 5, text: 'Other'}
 		]},
-		{id: 67, text: 'Sephora San Francisco', speakers: [
+		{id: 68, text: 'Sephora San Francisco', speakers: [
 				{id: 0, text: 'Airbnb'},
 				{id: 1, text: 'Ariana Mott'},
 				{id: 2, text: 'Alyssa Simpson'},
@@ -447,7 +474,7 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 4, text: 'Rod Begbie'},
 				{id: 5, text: 'Other'}
 		]},
-		{id: 68, text: 'Square San Francisco', speakers: [
+		{id: 69, text: 'Square San Francisco', speakers: [
 				{id: 0, text: 'Dolby'},
 				{id: 1, text: 'Lifelock/Stanford'},
 				{id: 2, text: 'Tasneem Misnadakis'},
@@ -455,14 +482,14 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 4, text: 'Catherine Georges'},
 				{id: 5, text: 'Other'}
 		]},
-		{id: 69, text: 'Twitter San Francisco', speakers: [
+		{id: 70, text: 'Twitter San Francisco', speakers: [
 				{id: 0, text: 'Dolby'},
 				{id: 1, text: 'Tasneem Misnadakis'},
 				{id: 2, text: 'Claire Uhar'},
 				{id: 3, text: 'Christine Matheney'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 70, text: 'Workday Bay Area', speakers: [
+		{id: 71, text: 'Workday Bay Area', speakers: [
 				{id: 0, text: 'Radius'},
 				{id: 1, text: 'Vindhya Sankapally'},
 				{id: 2, text: 'Arlene Mordeno'},
@@ -470,36 +497,33 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 4, text: 'Tejas Manohar'},
 				{id: 5, text: 'Other'}
 		]},
-		{id: 71, text: 'AOL Washington DC', speakers: [
+		{id: 72, text: 'AOL Washington DC', speakers: [
 				{id: 0, text: '1776'},
 				{id: 1, text: 'Lisa Hines'},
 				{id: 2, text: 'Rhianon Anderson'},
 				{id: 3, text: 'Other'}
 		]},
-		{id: 72, text: 'AT&T Washington DC', speakers: [
+		{id: 73, text: 'AT&T Washington DC', speakers: [
 				{id: 0, text: 'Palantir'},
 				{id: 1, text: 'Kelli Kedis Ogborn'},
 				{id: 2, text: 'Rhianon Anderson'},
 				{id: 3, text: 'Shannon Turner'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 73, text: 'BSA Washington DC', speakers: [
+		{id: 74, text: 'BSA Washington DC', speakers: [
 				{id: 0, text: 'Reshma/Megan Smith Town Hall'},
 				{id: 1, text: 'Kelli Kedis Ogborn'},
 				{id: 2, text: 'Shannon Turner'},
 				{id: 3, text: 'Lisa O\'Brien'},
 				{id: 4, text: 'Other'}
 		]},
-		{id: 74, text: 'Capital One Washington DC', speakers: [
+		{id: 75, text: 'Capital One Washington DC', speakers: [
 				{id: 0, text: '1776'},
 				{id: 1, text: 'Reshma/Megan Smith Town Hall'},
 				{id: 2, text: 'Lisa Hines'},
 				{id: 3, text: 'Rhianon Anderson'},
 				{id: 4, text: 'Linda Mills'},
 				{id: 5, text: 'Other'}
-		]},
-		{id: 75, text: 'Knight Foundation at MDC Miami: Grace Hopper', speakers: [
-				{id: 0, text: 'Other'}
 		]},
 		{id: 76, text: 'Lockheed Martin Washington DC: Ada Lovelace', speakers: [
 				{id: 0, text: 'General Assembly'},
@@ -513,7 +537,6 @@ var classroom_names = [	{id: 0, text: 'Accenture Atlanta', speakers: [
 				{id: 2, text: 'Shannon Turner'},
 				{id: 3, text: 'Other'}
 		]},
-
   { id: 78, text: 'Select a Classroom'}
 	//We added a comment!
 ]
